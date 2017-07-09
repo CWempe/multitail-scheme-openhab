@@ -13,3 +13,28 @@ Just open the log files like this:
 sudo multitail /var/log/openhab2/events.log /var/log/openhab2/openhab.log
 ```
 
+# Example
+
+## before
+
+![screenshot_before]
+
+## after
+
+![screenshot_after]
+
+
+# Usefull links
+
+I used the log4jnew color scheme as inspiration.  
+[https://github.com/flok99/multitail/blob/master/multitail.conf#L675](https://github.com/flok99/multitail/blob/master/multitail.conf#L675)
+
+
+Here are usefull explainations about the multitail.conf:  
+[https://www.pantz.org/software/multitail/multitailconfig.html](https://www.pantz.org/software/multitail/multitailconfig.html)
+
+
+
+
+[screenshot_before]: screenshots/multitail-openhab_before.PNG
+[screenshot_after]: screenshots/multitail-openhab_after.PNG
