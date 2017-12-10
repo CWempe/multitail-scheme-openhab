@@ -10,7 +10,7 @@ Every file inside `var/log/openhab2/` will now get the openhab color scheme by d
 Just open the log files like this:
 
 ```
-sudo multitail /var/log/openhab2/events.log /var/log/openhab2/openhab.log
+multitail /var/log/openhab2/events.log /var/log/openhab2/openhab.log
 ```
 
 # Example
